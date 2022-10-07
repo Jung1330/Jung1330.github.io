@@ -248,13 +248,13 @@
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
     <a href ="https://jung1330.github.io#" </a>
-      <img src="Website\Css\Entari.png" style="width:50%" alt="EntariClient">
+      <img src="Website\Css\Entari.png" style="width:50%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 6</div>
     <a href ="https://jung1330.github.io/LoLRememberV2/" </a>
-      <img src="Website\Css\LoLRememberV2.png" style="width:50%" >
+      <img src="Website\Css\LoLRememberV2.png" style="width:50%">
   </div>
 
   <div class="mySlides">
@@ -264,13 +264,13 @@
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-     <img src="Website\Css\Entari.png" style="width:50%">
+    <div class="https://github.com/Jung1330/TosbaMachine">4 / 6</div>
+     <img src="https://user-images.githubusercontent.com/81483108/193668031-867411ba-05e9-4ccf-a832-b0fdfc18a538.png" style="width:50%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-     <img src="Website\Css\Entari.png" style="width:50%">
+    <div class="https://github.com/Jung1330/JungMT2">5 / 6</div>
+     <img src="https://user-images.githubusercontent.com/81483108/193680286-e4675f9d-9917-421a-bbac-bd278e6904a6.png" style="width:50%">
   </div>
 
   <div class="mySlides">
@@ -302,10 +302,10 @@
        <img class="demo cursor" src="SpellRemember.png" style="width:50%" onclick="currentSlide(3)" alt="SpellRemember">
     </div>
     <div class="column">
-  <img class="demo cursor" src="Entari.jpg" style="width:50%" onclick="currentSlide(4)" alt="EntariClient">
+  <img class="demo cursor" src="" style="width:50%" onclick="currentSlide(4)" alt="TosbaMachine(CheatEngine)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="Entari.jpg" style="width:50%" onclick="currentSlide(5)" alt="EntariClient">
+      <img class="demo cursor" src="" style="width:50%" onclick="currentSlide(5)" alt="JungMT2(Aeldra/Rohan2)">
     </div>
     <div class="column">
         <img class="demo cursor" src="Entari.jpg" style="width:50%" onclick="currentSlide(6)" alt="EntariClient">
@@ -316,36 +316,36 @@
 
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+      </script>
                                
     </body>  
 
